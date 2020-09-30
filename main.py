@@ -47,6 +47,7 @@ if a == str("yes"):
     a = str(input())
     if a == str("a newspaper"):
       print ("You Are Correct!")
+      print ("\n")
       score = score + 1
       print ("this is your final score!")
       print ("\n")
@@ -54,6 +55,7 @@ if a == str("yes"):
       print ("Thank You For Playing The Joke Game!")
     else:
       print ("You Are Wrong")
+      print ("\n")
       print ("this is your final score!")
       print (score)
       print ("Thank You For Playing The Joke Game!")
