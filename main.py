@@ -12,7 +12,7 @@ if a == str("pink fluff"):
   score = score + 1
   print (score)
 else:
-  print ("You Are Wrong")
+  print ("You Are Wrong, the correct answer is pink fluff")
   print (score)
 time.sleep(1)
 print("\n")
@@ -31,7 +31,7 @@ if a == str("yes"):
     score = score + 1
     print (score)
   else:
-    print ("you are wrong")
+    print ("you are wrong, the correct answer is a brown stick!")
     print (score)
   print ("\n")
   print("Would You Like To See The Last Joke? please type yes or no")
@@ -54,7 +54,7 @@ if a == str("yes"):
       print (score)
       print ("Thank You For Playing The Joke Game!")
     else:
-      print ("You Are Wrong")
+      print ("You Are Wrong, the correct answer is a newspaper!)
       print ("\n")
       print ("this is your final score!")
       print (score)
